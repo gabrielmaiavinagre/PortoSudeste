@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		DB28E510211C07440089EC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28E50F211C07440089EC68 /* AppDelegate.swift */; };
-		DB28E512211C07440089EC68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28E511211C07440089EC68 /* ViewController.swift */; };
+		DB28E512211C07440089EC68 /* ListOfAllToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28E511211C07440089EC68 /* ListOfAllToDo.swift */; };
 		DB28E515211C07440089EC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB28E513211C07440089EC68 /* Main.storyboard */; };
 		DB28E517211C07440089EC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB28E516211C07440089EC68 /* Assets.xcassets */; };
 		DB28E51A211C07440089EC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB28E518211C07440089EC68 /* LaunchScreen.storyboard */; };
+		DB28E522211C0C060089EC68 /* ToDoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28E521211C0C060089EC68 /* ToDoListCell.swift */; };
+		DBD08BC9211C0FEF00F72F33 /* SectionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD08BC8211C0FEF00F72F33 /* SectionListCell.swift */; };
+		DBD08BCB211C11EC00F72F33 /* SpecificToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD08BCA211C11EC00F72F33 /* SpecificToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB28E50C211C07440089EC68 /* PortoSudeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortoSudeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB28E50F211C07440089EC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB28E511211C07440089EC68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB28E511211C07440089EC68 /* ListOfAllToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAllToDo.swift; sourceTree = "<group>"; };
 		DB28E514211C07440089EC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB28E516211C07440089EC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB28E519211C07440089EC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB28E51B211C07440089EC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB28E521211C0C060089EC68 /* ToDoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListCell.swift; sourceTree = "<group>"; };
+		DBD08BC8211C0FEF00F72F33 /* SectionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListCell.swift; sourceTree = "<group>"; };
+		DBD08BCA211C11EC00F72F33 /* SpecificToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				DB28E50F211C07440089EC68 /* AppDelegate.swift */,
-				DB28E511211C07440089EC68 /* ViewController.swift */,
+				DB28E511211C07440089EC68 /* ListOfAllToDo.swift */,
+				DBD08BCA211C11EC00F72F33 /* SpecificToDo.swift */,
 				DB28E513211C07440089EC68 /* Main.storyboard */,
+				DB28E521211C0C060089EC68 /* ToDoListCell.swift */,
+				DBD08BC8211C0FEF00F72F33 /* SectionListCell.swift */,
 				DB28E516211C07440089EC68 /* Assets.xcassets */,
 				DB28E518211C07440089EC68 /* LaunchScreen.storyboard */,
 				DB28E51B211C07440089EC68 /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB28E512211C07440089EC68 /* ViewController.swift in Sources */,
+				DB28E512211C07440089EC68 /* ListOfAllToDo.swift in Sources */,
+				DBD08BC9211C0FEF00F72F33 /* SectionListCell.swift in Sources */,
+				DBD08BCB211C11EC00F72F33 /* SpecificToDo.swift in Sources */,
 				DB28E510211C07440089EC68 /* AppDelegate.swift in Sources */,
+				DB28E522211C0C060089EC68 /* ToDoListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
